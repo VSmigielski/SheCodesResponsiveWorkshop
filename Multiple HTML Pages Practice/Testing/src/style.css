@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #c59eff;
+    --box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+    --border: 1px solid blue;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.student {
+    border: 1px solid red;
+    padding: 20px;
+    flex: 1;
+}
+
+.students {
+    display: flex;
+}
+
+h2 {
+    color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+h3 {
+    border: var(--border);
+}
+
+p {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: var(--box-shadow);
+}
+
+a.hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a.visited {
+    color: green;
+
+}
+

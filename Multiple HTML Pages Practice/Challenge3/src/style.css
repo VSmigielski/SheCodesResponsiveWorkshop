@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #ffbebc;
+  --secondary-color: #5edb6c;
+  --accent-color: #97a2ff;
+  --gradient: linear-gradient(to top, #7ecfd4, white);
+}
+body {
+  background: var(--gradient);
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+p {
+  background-color: var(--accent-color);
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
