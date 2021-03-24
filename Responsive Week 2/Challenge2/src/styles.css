@@ -21,7 +21,3 @@ h3 {
   margin: 30px auto;
   width: 150px;
 }
-
-.shadow-xl {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-}

@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.highlight {
+    background: yellow;
+    padding: 10px;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.bg-warning {
+    background: yellow !important;
+}
+
+.logo {
+    max-width: 130px;
+}
+
+.navbar-green {
+    background-color: green;
+}
